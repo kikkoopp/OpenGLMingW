@@ -51,8 +51,13 @@ add_library(STB_IMAGE "thirdparty/stb_image.cpp")
 # GLAD
 add_library(GLAD "thirdparty/glad.c")
 
+# IMGUI
+AUX_SOURCE_DIRECTORY(./thirdparty/imgui CURRENT_DIR_SRCS)
+message(${CURRENT_DIR_SRCS})
+add_library(IMGUI ${CURRENT_DIR_SRCS})
+
 # Put all libraries into a variable
-set(LIBS glfw3 opengl32 assimp STB_IMAGE GLAD)
+set(LIBS glfw3 opengl32 assimp STB_IMAGE GLAD IMGUI)
 
 # Define the include DIRs
 include_directories(

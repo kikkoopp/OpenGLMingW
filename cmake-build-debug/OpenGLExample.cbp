@@ -161,6 +161,54 @@
 					<DistClean command="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/Project/Cpp/OpenGLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="IMGUI">
+				<Option output="E:/Project/Cpp/OpenGLProject/cmake-build-debug/libIMGUI.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Project/Cpp/OpenGLProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Project/Cpp/OpenGLProject/cmake-build-debug/src"/>
+					<Add directory="E:/Project/Cpp/OpenGLProject/src"/>
+					<Add directory="E:/Project/Cpp/OpenGLProject/include"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/Project/Cpp/OpenGLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 IMGUI"/>
+					<CompileFile command="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/Project/Cpp/OpenGLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/Project/Cpp/OpenGLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/Project/Cpp/OpenGLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IMGUI/fast">
+				<Option output="E:/Project/Cpp/OpenGLProject/cmake-build-debug/libIMGUI.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Project/Cpp/OpenGLProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Project/Cpp/OpenGLProject/cmake-build-debug/src"/>
+					<Add directory="E:/Project/Cpp/OpenGLProject/src"/>
+					<Add directory="E:/Project/Cpp/OpenGLProject/include"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/Project/Cpp/OpenGLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 IMGUI/fast"/>
+					<CompileFile command="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/Project/Cpp/OpenGLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/Project/Cpp/OpenGLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/Project/Cpp/OpenGLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/Project/Cpp/OpenGLProject/cmake-build-debug"/>
 				<Option type="4"/>
@@ -205,6 +253,27 @@
 		</Unit>
 		<Unit filename="E:/Project/Cpp/OpenGLProject/thirdparty/glad.c">
 			<Option target="GLAD"/>
+		</Unit>
+		<Unit filename="E:/Project/Cpp/OpenGLProject/thirdparty/imgui/imgui.cpp">
+			<Option target="IMGUI"/>
+		</Unit>
+		<Unit filename="E:/Project/Cpp/OpenGLProject/thirdparty/imgui/imgui_demo.cpp">
+			<Option target="IMGUI"/>
+		</Unit>
+		<Unit filename="E:/Project/Cpp/OpenGLProject/thirdparty/imgui/imgui_draw.cpp">
+			<Option target="IMGUI"/>
+		</Unit>
+		<Unit filename="E:/Project/Cpp/OpenGLProject/thirdparty/imgui/imgui_impl_glfw.cpp">
+			<Option target="IMGUI"/>
+		</Unit>
+		<Unit filename="E:/Project/Cpp/OpenGLProject/thirdparty/imgui/imgui_impl_opengl3.cpp">
+			<Option target="IMGUI"/>
+		</Unit>
+		<Unit filename="E:/Project/Cpp/OpenGLProject/thirdparty/imgui/imgui_tables.cpp">
+			<Option target="IMGUI"/>
+		</Unit>
+		<Unit filename="E:/Project/Cpp/OpenGLProject/thirdparty/imgui/imgui_widgets.cpp">
+			<Option target="IMGUI"/>
 		</Unit>
 		<Unit filename="E:/Project/Cpp/OpenGLProject/thirdparty/stb_image.cpp">
 			<Option target="STB_IMAGE"/>
