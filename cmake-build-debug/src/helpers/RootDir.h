@@ -1,2 +1,2 @@
 #pragma once
-#define ROOT_DIR "E:/Project/Cpp/OpenGLProject/"
+#define ROOT_DIR "E:/Work/CPP/OpenGL/OpenGLMingW/"
