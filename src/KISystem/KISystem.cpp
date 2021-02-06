@@ -3,3 +3,8 @@
 //
 
 #include "KISystem.h"
+
+using namespace KIEngine;
+TCHAR KISystem::ms_sLogBuffer[LOG_BUFFER_SIZE];
+DWORD KISystem::ms_dwMainThreadID = 0;
+

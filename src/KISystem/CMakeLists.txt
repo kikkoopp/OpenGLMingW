@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
 
+add_definitions(-D KISYSTEM_EXPORTS)
+
 # Add source files
 file(GLOB_RECURSE SOURCE_FILES
         ${CMAKE_SOURCE_DIR}/*.c
