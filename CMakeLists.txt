@@ -68,6 +68,13 @@ include_directories(
 # Define the link libraries
 target_link_libraries(${PROJECT_NAME} ${LIBS})
 
+# KISystem
+add_subdirectory(${CMAKE_SOURCE_DIR}/src/KISystem)
+
+# Put module into modules
+set(MODULES module_system)
+target_link_libraries(${PROJECT_NAME} ${MODULES})
+
 # Create virtual folders to make it look nicer in VS
 if(MSVC_IDE)
 	# Macro to preserve source files hierarchy in the IDE
