@@ -8,13 +8,13 @@ link_directories(${CMAKE_SOURCE_DIR}/lib)
 
 # Add source files
 file(GLOB_RECURSE SOURCE_FILES 
-	${CMAKE_SOURCE_DIR}/src/*.c
-	${CMAKE_SOURCE_DIR}/src/*.cpp)
+	${CMAKE_SOURCE_DIR}/src/main/*.c
+	${CMAKE_SOURCE_DIR}/src/main/*.cpp)
 	
 # Add header files
 file(GLOB_RECURSE HEADER_FILES 
-	${CMAKE_SOURCE_DIR}/src/*.h
-	${CMAKE_SOURCE_DIR}/src/*.hpp)
+	${CMAKE_SOURCE_DIR}/src/main/*.h
+	${CMAKE_SOURCE_DIR}/src/main/*.hpp)
 
 # Configure assets header file
 configure_file(src/helpers/RootDir.h.in src/helpers/RootDir.h)
