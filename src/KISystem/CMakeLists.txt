@@ -2,6 +2,10 @@ cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
 
 add_definitions(-D KISYSTEM_EXPORTS)
 
+# set Threads
+set(THREADS_PREFER_PTHREAD_FLAG ON)
+find_package(Threads REQUIRED)
+
 # Add source files
 file(GLOB_RECURSE SOURCE_FILES
         ${CMAKE_CURRENT_SOURCE_DIR}/*.c
@@ -13,3 +17,4 @@ file(GLOB_RECURSE HEADER_FILES
         ${CMAKE_CURRENT_SOURCE_DIR}/*.hpp)
 
 ADD_LIBRARY(module_system ${HEADER_FILES} ${SOURCE_FILES})
+TARGET_LINK_LIBRARIES(module_system PUBLIC Threads::Threads)
